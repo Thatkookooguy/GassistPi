@@ -42,6 +42,6 @@ fi
 
 echo 'AIY-HAT' >> $audioconfig
 
-sudo cp scripts/asound.conf "$global_asoundrc"
-sudo cp scripts/.asoundrc "$asoundrc"
+cp scripts/asound.conf "$global_asoundrc"
+cp scripts/.asoundrc "$asoundrc"
 echo "Installed voiceHAT ALSA config at $global_asoundrc"
